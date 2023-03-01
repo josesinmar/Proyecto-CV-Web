@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     color: yellowgreen;
+   
 }
 body{
     font-family:"Montserrat", sans-serif;
@@ -13,33 +14,40 @@ body{
     
 }
 .contenedor{
-    margin: 1px 1px 1px 4px ;
+    text-align: center;
+    margin:auto ;
+    }
+div .datos-contacto{
+    text-align: center;
+    max-width: 100%;
 }
 .contenedor-columnas{
     width: 100%;
-    margin: auto;
+    margin: none;
     margin-bottom: 50px;
+    max-width: 100%;
+    
 }
 .columnax1{
     width: 33,333%;
     float: left;
     padding:20px 20px ;
     box-sizing: border-box;
-    margin: auto;
+    margin: 20px 20px;
 }
 .columnax2{
     width: 33,333%;
     float: left;
     padding:20px 20px ;
     box-sizing: border-box;
-    margin: auto;
+    margin: 20px 20px;
 }
 .columnax3{
     width: 33,333%;
     float: left;
     padding:20px 20px ;
     box-sizing: border-box;
-    margin: auto;
+    margin: 20px 20px;
 }
 .iconos{
     font-size: 3em ;
@@ -59,7 +67,7 @@ body{
 }
 .form_title{
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2.9rem;
     margin-bottom: .4em;
 }
 .form_input{
@@ -81,7 +89,9 @@ font-family: inherit;
 }
 h1 {
     text-align: center ; color: yellowgreen;
-}
+    font-size: 2.5em;
+} 
+
 #imagen{
     border-radius: 50%; border: 5px solid yellowgreen;
 }
