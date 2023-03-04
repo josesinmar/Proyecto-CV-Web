@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     color: yellowgreen;
-   
 }
 body{
     font-family:"Montserrat", sans-serif;
@@ -14,40 +13,42 @@ body{
     
 }
 .contenedor{
+    margin: 1px 1px 1px 4px ;
+}
+.title_columnas{
     text-align: center;
-    margin:auto ;
-    }
-div .datos-contacto{
-    text-align: center;
-    max-width: 100%;
+    font-size : 2em;
 }
 .contenedor-columnas{
     width: 100%;
-    margin: none;
+    margin: auto;
     margin-bottom: 50px;
-    max-width: 100%;
-    
 }
 .columnax1{
     width: 33,333%;
     float: left;
-    padding:20px 20px ;
+    padding:20px 70px ;
     box-sizing: border-box;
-    margin: 20px 20px;
+    margin: 10px 25px;
 }
 .columnax2{
     width: 33,333%;
     float: left;
-    padding:20px 20px ;
+    padding:20px 70px ;
     box-sizing: border-box;
-    margin: 20px 20px;
+    margin: 10px 25px;
 }
 .columnax3{
     width: 33,333%;
-    float: left;
-    padding:20px 20px ;
+    float: right;
+    padding:20px 100px ;
     box-sizing: border-box;
-    margin: 20px 20px;
+    margin: 10px 25px;
+}
+.title_habilidades{
+   float: left;
+   margin-left: 1px;
+   box-sizing: border-box;
 }
 .iconos{
     font-size: 3em ;
@@ -67,7 +68,7 @@ div .datos-contacto{
 }
 .form_title{
     text-align: center;
-    font-size: 2.9rem;
+    font-size: 1.9rem;
     margin-bottom: .4em;
 }
 .form_input{
@@ -89,9 +90,7 @@ font-family: inherit;
 }
 h1 {
     text-align: center ; color: yellowgreen;
-    font-size: 2.5em;
-} 
-
+}
 #imagen{
     border-radius: 50%; border: 5px solid yellowgreen;
 }
