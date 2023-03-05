@@ -13,7 +13,11 @@ body{
     
 }
 .contenedor{
-    margin: 1px 1px 1px 4px ;
+    margin-left: 5em;
+    
+}
+h4{
+    margin-left: 5em;
 }
 .title_columnas{
     text-align: center;
@@ -21,33 +25,41 @@ body{
 }
 .contenedor-columnas{
     width: 100%;
-    margin: auto;
-    margin-bottom: 50px;
+    margin-left: 4em;
+    margin-bottom: 2em;
 }
+
 .columnax1{
+    font-size: 15PX;
     width: 33,333%;
     float: left;
-    padding:20px 70px ;
+    padding:20px 30px ;
     box-sizing: border-box;
-    margin: 10px 25px;
+    margin: 20px 20px;
 }
 .columnax2{
+    font-size: 15PX;
     width: 33,333%;
     float: left;
-    padding:20px 70px ;
+    padding:20px 30px ;
     box-sizing: border-box;
-    margin: 10px 25px;
+    margin: 10px 20px;
 }
 .columnax3{
+    font-size: 15PX;
     width: 33,333%;
-    float: right;
-    padding:20px 100px ;
+    float: left;
+    padding:20px 30px ;
     box-sizing: border-box;
-    margin: 10px 25px;
+    margin: 10px 20px;
 }
-.title_habilidades{
-   float: left;
-   margin-left: 1px;
+.lista_habilidades{
+    font-size: 15PX;
+    width: 100%;
+    float: left;
+    padding-right: 15em;
+   margin-right: 15em;
+   margin-left: 5em;
    box-sizing: border-box;
 }
 .iconos{
@@ -66,9 +78,9 @@ body{
     gap:1em;
     grid-auto-columns: 100%;
 }
-.form_title{
+.name_cv{
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 30px;
     margin-bottom: .4em;
 }
 .form_input{
@@ -89,6 +101,7 @@ font-family: inherit;
 
 }
 h1 {
+    font-size: 40px;
     text-align: center ; color: yellowgreen;
 }
 #imagen{
@@ -102,4 +115,8 @@ h1 {
 }
 .contacto{
     background-image: -webkit-image-set("fondo3.jpg");
+}
+.datos_contacto{
+    margin-left: 5em;
+    font-size: 15px;
 }
